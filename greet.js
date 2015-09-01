@@ -1,5 +1,5 @@
 ' use strict';
 
-exports.foo = function(name){
+exports.hello = function(name){
   return 'hello' + name;
 };

@@ -2,8 +2,8 @@ var foo = require('../greet');
 
 var expect = require('chai').expect;
 
-describe('test foo', function(){
+describe('test hello', function(){
   it('should return hello + name', function(){
-    expect(foo.foo('tomo')).to.eql('hello' + 'tomo');
+    expect(foo.hello('tomo')).to.eql('hello' + 'tomo');
   });
 });
