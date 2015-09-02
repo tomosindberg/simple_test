@@ -13,6 +13,4 @@ gulp.task('test', function(){  //mocha/chai ./test/great_test.js
     .pipe(gulpMocha({reporter: 'nyan'}));
 });
 
-// gulp.task()
-
 gulp.task('default', ['jshint', 'test']);
