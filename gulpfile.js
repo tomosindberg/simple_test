@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var gulpMocha = require('gulp-mocha');
 var watch = require('gulp-watch');
-var incrementalBuild = 'test'; //changes showed up in ./bin/gulpfile.js
+ //changes showed up in ./bin/gulpfile.js
 
 gulp.task('jshint', function(){
   return gulp.src(['index.js', 'bin/greet', 'test/**/*.js', 'lib/**/*.js', 'gulpfile.js'])
@@ -12,6 +12,7 @@ gulp.task('jshint', function(){
 
 gulp.task('test', function(){  //mocha/chai ./test/great_test.js
   return gulp.src('test/**/*test.js')
+    .pipe(watch(['index.js', 'bin/greet', 'test/**/*.js', 'lib/**/*.js', 'gulpfile.js']))
     .pipe(gulpMocha({reporter: 'nyan'}));
 });
 
