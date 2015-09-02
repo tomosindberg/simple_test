@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3",
     "jshint": "^2.8.0",
     "mocha": "^2.3.0"
   },
@@ -22,7 +24,7 @@
     "type": "git",
     "url": "https://github.com/tomosindberg/simple_test"
   },
-  "author": "Tomo Sindberg",
+  "author": "tsindberg@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tomosindberg/simple_test/issues"
