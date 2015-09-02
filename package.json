@@ -1,0 +1,30 @@
+{
+  "name": "assignment2",
+  "version": "0.1.0",
+  "description": "using gulp mocha and gulp",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "bin": "bin/greet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomosindberg/simple_test"
+  },
+  "author": "Tomo Sindberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomosindberg/simple_test/issues"
+  },
+  "homepage": "https://github.com/tomosindberg/simple_test"
+}
