@@ -1,5 +1,6 @@
 var greet = require('../greet');
 
+
 var expect = require('chai').expect;
 
 describe('test hello', function(){
@@ -7,3 +8,4 @@ describe('test hello', function(){
     expect(greet.hello('tomo')).to.eql('hello' + 'tomo');
   });
 });
+
